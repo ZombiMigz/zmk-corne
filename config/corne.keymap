@@ -21,7 +21,7 @@
             bindings = <
 &kp GRAVE           &kp Q  &kp W  &kp E           &kp R        &kp T                 &kp Y      &kp U        &kp I      &kp O    &kp P     &kp BACKSPACE
 &mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D           &kp F        &kp G                 &kp H      &kp J        &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL           &kp Z  &kp X  &kp C           &kp V        &kp B                 &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &none
+&kp LCTRL           &kp Z  &kp X  &kp C           &kp V        &kp B                 &kp N      &kp M        &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
                                   &mt LGUI SPACE  &lt 1 SPACE  &mt LEFT_ALT SPACE    &kp SPACE  &lt 2 SPACE  &kp SPACE
             >;
         };
@@ -43,10 +43,10 @@
 
         special {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp MINUS  &kp EQUAL  &kp BSPC
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &kp LBKT   &kp RBKT   &kp BSLH
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans     &trans     &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans        &kp MINUS  &kp EQUAL  &kp BSPC
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP_ARROW  &kp LBKT   &kp RBKT   &kp BSLH
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans     &trans
+                        &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
     };
